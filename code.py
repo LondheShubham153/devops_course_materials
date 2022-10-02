@@ -1,2 +1,2 @@
-print("old feature but boht zyaada gold feature")
+print("old feature but boht zyaada gold feature!!")
 
