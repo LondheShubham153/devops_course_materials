@@ -1,0 +1,17 @@
+1]cherry-pick=> It means commit hash from one branch and merge to another branch
+cmd=> git cherry-pick (Commit_hash)
+
+2]Rebase=> It will use to synch 2 braches in same level whithout crating new commit or it will merge all the commits into one branch.
+
+3]Squash=> It will combine multiple commits into one commit 
+cmd=> git rebase -i HEAD~3
+ means it will squash 3 commits from top and combine with other commits.
+
+4]stash=> It will store uncommited data in the hidden location.
+If one.txt  file is stashed and If you checkout that branch then this file  will automatically carryforward 
+into new branch if we do want to se this file thn we can use 
+>>git stash
+
+Or if we want remove that stash file then use
+>>git pop 
+
