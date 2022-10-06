@@ -1,0 +1,46 @@
+#FROM DAY 1 THAT WAS ON OCTOBER 1st ,2022
+
+- Learned about the VCS and its subdivisions
+-CVCS i.e. Centralized Version Control System (Example:- Git,SVN,Perforce)
+-DVCS i.e. Distributed Version Control System (GitHub , GitLab)
+
+-The most basic and everyday used commands:-
+        i.      git init                                             -initializes an empty repository
+        ii.     git status                                           -To know the status of untracked/staged/tracked files and in which branch.
+        iii.    git add                                              -To make the untracked files to staged files.
+        iv.     git commit                                           -To commit the changes you have made .
+        v .     git checkout -b <branch name>                        - To create a new branch (Or you can use git branch <branchname>)
+        vi .    git checkout <branchname>                            - To switch to the branch specified in the argument (Or git switch <branchname>)
+        vii.    git restore <filename>                               - To restore the file which is deleted accidently or intentionally and it is retrieved from (.git folder)
+        viii.   git restore --staged <filename>                      -To make the staged files to be untracked
+        ix.     git log                                              -To check the logs 
+        x.      git clone                                            -To copy/clone the repository from remote to your local machine .
+        xi.     git push                                             -To push the repository from your local repository to your remote repo.
+        xii.    git pull                                             -To pull the latest changes made on your branches on the Remote repository.
+        xiii.   git config --global user.name "<Remote user>"        - To specify your remote username so that the local repo recognises it.
+        xiv.    git config --global user.email "<email>"             - To specify your emailid so that the local repo recognises it.
+        xv.     git config --list                                    -To cross verify whether the global config is attached accurately.
+        xvi.    git merge <branchname>                               -To merge the present branch with the specified branch. 
+        xvii.   git branch -D <branchname>                            -To delete the branch
+
+#FROM DAY 2 THAT WAS ON OCTOBER 2nd ,2022      
+
+        xviii.  git cherry-pick <hash of that commit>                   -If you want to merge only the desired commit to your specified branch then you need to use cheery pick 
+        xix.    git reset <Hash of the commit>                          -To remove the commits you want to but it cannot remove it from the middle as the commits are formed in layers so you cannot remove any layers from middle.
+        xx.     git stash                                               - To move the untracked/staged files to the diffenet area so that you can work with clean workspace and bring them back whenever you require them.
+        xxi.    git stash pop                                           - To bring back the stashed files from backend
+        xxii.   git stash clear                                         - To clear the stashed files and now it cannot be brought back .
+        xxiii.  git rebase                                              - To maintain linear project history and bring the branches to the same level.
+        xxiv.   git rebase -i HEAD ~3 also called as Sqaushing          - To squash that is combining the last 3 commits .
+        xxv.    git fetch                                               - This will not only pull the latest changes but also the latest branches which are added to ypur remote repo.
+
+    -Merge Conflict - This is the situation which occurs at the time when the same file is in two different branches and both have some changes each and you try to merge them then there is what occurs called Merge conflict.
+    -Pull Request   - It is somthing which is the git merge what we do with CLI on local and the UI of merge is Pull request on Remote .
+    -It is always adviced to make a new branch and make the changes and then push it back so that it is easily traceable and identifiable because one branch can have only one Pull request and we keep on making new commits  on that particluar branch then it would be very difficult to understand the flow.
+
+    -Git has a 3-stage architecture which incudes:-
+
+        i.      Working directory                                       - The place where the untracked files are stored.
+        ii.     Staging area                                            - The place where we use (git add <file name >) to make the untracked file to staged files.
+        iii.    Git directory                                           - This is the place where the tracked files are kept.(git commit -m "Message")
+    
