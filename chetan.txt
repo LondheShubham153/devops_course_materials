@@ -1,0 +1,8 @@
+Hi,
+
+This is chetan, 
+I have learnt, Git.
+
+Where I learnt branching strategies, merge, push, pull, clone, cherry pick, squash, rebase, stash, pop, fork, conflicts etc.
+
+Thank you!
