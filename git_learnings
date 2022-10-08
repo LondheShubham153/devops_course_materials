@@ -1,0 +1,20 @@
+Git - Train with Shubham
+My Learnings:
+- Git Basic and Advance Commands
+--git pull - get the files from the github
+--git push  - get push the files on github
+--git log - to check git commits
+--git commit - to provide commit a file
+-- git merge - merge two branch contents
+-- git rebase - to make different branch at same level
+-- git squash -to merge two or more files contents
+-- git fetch - to get github data in local
+--git add - to add a from untracked to tracked in git 
+-- git cerry-pick - to add/merge a particular commit id
+--git checkout - to switch between two or more branch
+-- git checkout -b - to create a new branch and switch into it
+-- git branch - to check present working branch 
+
+--Conflicts
+
+- Learned how to create conflict and how resolve them. 
