@@ -1,0 +1,9 @@
+GitHub - GitHub is a platform which runs tools of git in the background.
+
+Cherry-pick - It is used to insert a particular commit in other branches. It uses hash of commit to cherry-pick commit.
+
+Origin - It has a link of where ur git repository is available.
+
+git fetch - It takes out all branches from git.
+
+squash - It is used to combine multiple commits into one.
