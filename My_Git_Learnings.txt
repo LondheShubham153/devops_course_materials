@@ -1,0 +1,23 @@
+General sequence of git cmds sample :
+git init
+git clone repo.git
+git checkout -b feature_branch
+vi test.txt   (any code changes in files)
+git add .
+git status
+git commit -m "Committed changes"
+git push origin main
+
+other imp git cmds:
+git stash
+git stash pop
+git branch
+git branch -a
+git pull
+git fetch
+git restore filename
+git cherry-pick "commit-hash"
+git merge
+git rebase
+etc etc.....
+
