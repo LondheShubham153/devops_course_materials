@@ -1,0 +1,11 @@
+Hi Shubham Bhaiya,
+I would like to first thank you for coming up with such an amazing  and interactive live course on devops. I am currently working in tcs from last one year under a project of automation in which we use technologies like ansible, terraform, gitlab ci, powershell,etc. I do have  a basic knowledge of all these tools and use them in developing various automation pipelines in my company. I want to dive deep into all these technologies along with the fact of learning development side by side to be a better technology enthusiast and professional in the years to come by. I really love the way you teach and make concepts simple and easy to understand helping us enhance our knowledge in different technologies. 
+
+The Learning I had from our first week class are:
+Clarifying my concepts of cherry-pick
+Learning about git merge, and the difference between git rebase
+git stash and git squash
+git pull and git fetch.
+
+
+I am really excited to learn new things and be a better version of myself through little steps and contributing my learnings in a better way.
