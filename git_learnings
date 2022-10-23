@@ -10,7 +10,7 @@ My Learnings:
 -- git squash -to merge two or more files contents
 -- git fetch - to get github data in local
 --git add - to add a from untracked to tracked in git 
--- git cerry-pick - to add/merge a particular commit id
+-- git cherry-pick - to add/merge a particular commit id
 --git checkout - to switch between two or more branch
 -- git checkout -b - to create a new branch and switch into it
 -- git branch - to check present working branch 
