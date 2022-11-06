@@ -1,0 +1,24 @@
+Git & github important keywords & meaning
+
+A. Git Commands
+1. git init = initialize empty git repository
+2. git status = info about branch, commit, tracked & untracked files
+3. git checkout -b <branch_name> = creates and switches to new branch
+4. git add <file_name> = changes file from untracked to staged state
+5. git commit -m "message" = changes file status from staged to tracked
+6. git add . = adds all untracked files to staged state
+7. git log = details about commit, user, date & time of file modification
+8. git clone = Allow us to copy repository from github to local
+9. git push = pushes all files from local to server 
+10. git pull = used to pull files from github
+11. git switch = switch to specific git branch
+12. git branch = shows list of branch and currently in which branch are we 
+
+B. Advanced Concepts
+1. Rebase = makes project linear linear with branches
+2. Squash = can rebase in same branch. Converts all commits into single commit
+3. cherry-pick = can copy specific commit from specific branch
+4. conflicts = occurs while merging the same file with different content 
+5. git stash = saves uncommited changes to secret location
+6. git stash pop = hidden file pops up again.
+
