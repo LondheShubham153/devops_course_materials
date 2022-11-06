@@ -1,0 +1,22 @@
+In Git & Git Hub lasses I learnt about:
+
+Git - a VCS (Version Control system tool)
+Git Hub - a DVCS (Decentralised Version Control system)
+How to initialise a git repository using git init
+How to add a file to that repository which then gets staged and is finally commited. Git add <filename>, git commit -m
+How to delete a file and then restore it.
+We use git clone to bring a repository in Git Hub to our local system.
+Git Pull is used to bring latest updates done in Git Hub in a particular branch to the local repository where we performed git clone earlier.
+Git Fetch is used to bring latest updates done in Git Hub in a all the branchs to the local repository where we performed git clone earlier. 
+Git Push is used to update the repository in Git Hub at par with Local Git Repository.
+Git Merge where a branch gets the updates from another branch and a single new commit is created.
+Git Rebase is used to bring the branches at par with each other where all the branches will have same latest commit. All the commits are brought as it is from other branches.
+Git Squash is used to merge 2 or more commits.
+Git Stash is used to shift to other branch without the uncommited work in current branch and when you want to again continue working we use git pop, if you mo longer requre it we use git stash drop.
+Git Cherrypick is used to pick particular changes from other branch using the hash of that change from git log.
+
+
+Git Conflicts were also learned which arises when the code has been mismatched in various branches or in local and remote files for the same file.
+I learned how to fork a repositor from others git hub and contribute towards that.
+
+Thank you.
