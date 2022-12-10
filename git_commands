@@ -1,0 +1,56 @@
+Setup for Windows user-
+1. Download and install Oracle VM BOX.
+2. Download and install Visual studio code.
+3. For adding gitbash on VS code.
+In VS code - File >> Preferences >> Settings >>Click on open setting JSON and add ( "terminal.integrated.profiles.windows":{"Git Bash":{"path":"C:\\Program Files\\Git\\bin\\bash.exe"},  },
+    "terminal.integrated.defaultProfile.windows": "Git Bash")
+4. Restart your VS code
+
+Case1 - Process of pushing code from local to Github repo.
+1.Create 1 folder in your local and open that folder in VS code.
+2.Open terminal of that folder.
+3.Create 1 file and open the terminal 
+Run commands - git init
+git config --global user.name "surbhitiwariitech01"
+git config --global user.email "surbhitiwari01itech"
+vim git_learning.txt
+git status
+git add git_learning.txt
+git status
+git commit -m "Commint my file to staging"
+git status
+git log
+git push origin <branch name>
+verify the file which you pushed in your repo
+
+Case2 - Process of cloning code from Github repo to local.
+1. Copied the repo url from the github repo.
+2. Create 1 folder and open the terminal and enter the command 
+git status
+git checkout -b <branch name>
+git clone <git repo url>
+verify that all the code which is in your github will not into your local.
+
+Case3 -Process of pulling the code from github repo to local.
+1.Did the git inti the folder where you want to pull the code.
+2. git remote add origin <github repo url>
+3. git pull origin master
+4. git log
+5. git status
+verify that all the changes is reflecting in your local.
+
+
+Case4 - Merging the file in different branches
+create 2 diff. branches for eg. main and dev
+create 2 files in dev 
+touch file1.txt file2.txt
+git add.
+git commit -m "comment"
+git status
+git merge <branch name> main
+verify that all the file will come in main branch also.
+
+
+
+
+
