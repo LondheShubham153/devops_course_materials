@@ -1,0 +1,12 @@
+Hello Sir ,
+
+Myself Pratik Deshmukh (deshmukhpratik570@gmail.com)
+Thank You for amazing lecture on GIT and GITHUB
+Really Understood Git and GITHUB 
+like how stage a file by adding (means tracking it) then commiting it 
+git basic comands like git status, add, commit, pull ,log --oneline, push ,checkout, switch , branch ,remote -v ,fetch 
+rebase -i HEAD~2 (squash union of multiple commit), 
+rebase(leveling two branches without extra commiting) ,
+merge (merging two branches), 
+cherry-pick(picking particular commit from other branch through getting hash of that commit in logs),
+Stash , etc
